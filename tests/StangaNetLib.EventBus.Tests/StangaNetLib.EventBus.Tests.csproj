@@ -3,7 +3,7 @@
     <AssemblyName>StangaNetLib.EventBus.Tests</AssemblyName>
     <RootNamespace>StangaNetLib.EventBus.Tests</RootNamespace>
     <IsPackable>false</IsPackable>
-    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+    <TargetFrameworks>net8.0;net9.0;net10.0</TargetFrameworks>
     <UseAppHost>true</UseAppHost>
     <NoWarn>$(NoWarn);xUnit1051</NoWarn>
   </PropertyGroup>

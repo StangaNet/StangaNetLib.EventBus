@@ -7,5 +7,5 @@
 - DI: `AddStangaNetLibEventBus` / `AddStangaNetLibEventBusWithRabbitMq` / `AddEventTriggeredJob`.
 - Pin Core/Concurrency/Jobs 1.0.0; never reintroduce Microsoft.Extensions.* 10.x.
 - Match existing naming, file-scoped namespaces, and EditorConfig / Roslyn conventions.
-- Tests use xUnit v3 + FluentAssertions; cover both `net8.0` and `net9.0` when changing shared behavior.
+- Tests use xUnit v3 + FluentAssertions; cover `net8.0`, `net9.0`, and `net10.0` when changing shared behavior.
 - Do not add broker-specific tests that require a live RabbitMQ unless the CI matrix provides one.

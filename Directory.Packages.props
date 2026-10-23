@@ -7,7 +7,7 @@
     <PackageVersion Include="StangaNetLib.Core" Version="1.0.0" />
     <PackageVersion Include="StangaNetLib.Concurrency" Version="1.0.0" />
     <PackageVersion Include="StangaNetLib.Jobs" Version="1.0.0" />
-    <!-- Runtime dependencies — align with lowest TFM (net8) for dual-targeting -->
+    <!-- Runtime dependencies — align with lowest TFM (net8) for multi-targeting (net8/net9/net10) -->
     <PackageVersion Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
     <PackageVersion Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
     <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="8.0.1" />

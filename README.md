@@ -2,7 +2,7 @@
 
 [![.NET CI](https://github.com/StangaNet/StangaNetLib.EventBus/actions/workflows/main.yml/badge.svg)](https://github.com/StangaNet/StangaNetLib.EventBus/actions/workflows/main.yml)
 ![NuGet](https://img.shields.io/badge/nuget-1.0.0-blue)
-![.NET](https://img.shields.io/badge/.NET-8.0%20%7C%209.0-512BD4)
+![.NET](https://img.shields.io/badge/.NET-8.0%20%7C%209.0%20%7C%2010.0-512BD4)
 
 Publish/subscribe integration event bus with **InMemory** and **RabbitMQ** backends, plus optional event→job triggering via [`StangaNetLib.Jobs`](https://github.com/StangaNet/StangaNetLib.Jobs). Failures surface as `Result` from [`StangaNetLib.Core`](https://github.com/StangaNet/StangaNetLib.Core); optional per-event-type serialization uses `IKeyedLock` from [`StangaNetLib.Concurrency`](https://github.com/StangaNet/StangaNetLib.Concurrency).
 
